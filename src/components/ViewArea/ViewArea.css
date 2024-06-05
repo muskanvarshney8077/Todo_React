@@ -1,0 +1,51 @@
+.tableWrapper {
+  color: black;
+  background-color: rgb(163, 213, 233);
+  text-align: center;
+  margin: 1% 20%;
+  border-radius: 5px;
+  width: 60%;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+}
+.ButtonColourTaskEdit {
+  width: 45%;
+  background-color: skyblue;
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+.ButtonColourTaskDelete {
+  width: 45%;
+  background-color: rgba(247, 26, 26, 0.753);
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rowStyles-Due {
+  background-color: rgb(250, 48, 48);
+}
+.rowStyles-Progress {
+  background-color: orange;
+}
+.rowStyles-NotStartedYet {
+  background-color: yellow;
+}
+.rowStyles-Completed {
+  background-color: green;
+}

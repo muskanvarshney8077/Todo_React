@@ -1,0 +1,93 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-wrapper {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(199, 238, 235, 0.9);
+  z-index: 1000;
+  flex-direction: column;
+}
+.modal-wrapper.active {
+  display: flex;
+}
+.modal-start {
+  /* width: 65vh;
+  height: 50vh; */
+  position: fixed;
+  z-index: 1001;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  padding: 40px 40px;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+}
+.modal-btn-save {
+  background-color: skyblue;
+  padding: 6px 5px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  color: white;
+  font-weight: 500;
+}
+.modal-btn-save:hover {
+  background-color: rgb(10, 178, 245);
+  transform: scale(1.25);
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.modal-btn-cancel:hover {
+  transform: scale(1.25);
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.modal-btn-cancel {
+  padding: 6px 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+.modal-input-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.endTimeColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.error {
+  color: red;
+  font-weight: lighter;
+  font-size: smaller;
+}
+.modal-input {
+  padding: 6px 20px;
+  border-radius: 5px;
+  text-align: right;
+}
+.modal-btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}

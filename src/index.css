@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(241, 232, 215);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+
+  color: white;
+}

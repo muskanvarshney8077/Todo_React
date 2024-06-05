@@ -1,0 +1,51 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  gap: 10px;
+
+  margin: auto;
+}
+.btn-delete {
+  background-color: rgb(177, 9, 9);
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+}
+.btn-delete-inactive {
+  background-color: grey;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+}
+.btn-delete:hover {
+  cursor: pointer;
+  transform: scale(1.125);
+  transition: all 0.5s;
+}
+.btn-complete {
+  background-color: rgba(9, 177, 59, 0.815);
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+}
+.btn-complete-inactive {
+  background-color: grey;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: aliceblue;
+  font-weight: 600;
+}
+.btn-complete:hover {
+  cursor: pointer;
+  transform: scale(1.125);
+  transition: all 0.5s;
+}
